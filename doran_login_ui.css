@@ -1,3 +1,5 @@
+
+
 .flex-container {
     display: flex;
 }
@@ -15,7 +17,8 @@
     text-decoration: underline; 
 }
 .container{
-    background-color: rgb(129, 129, 233);
+    background-image: url(pexels-veeterzy-114979.jpeg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     height: 700px;
@@ -26,7 +29,7 @@
     
     background-color: rgb(255, 255, 255, 0.7 );
     border-radius: 8px;
-    box-shadow: 5px 10px 8px ;
+    box-shadow: 10px 10px 15px ;
     padding: 10px;
     width:400px;
 }
@@ -41,13 +44,23 @@ input[type="text"],
 [type="password"] {
     padding: 11px;
     font-size: 17px;
+    transform: translateX(-15px);
+    
 
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
 }
 
 label {
     flex-basis: 130px;
     margin-top: 10px;
     font-size: 20px;
+    margin-left: 5px;
+    
+    ;
 }
 
 input[type="button"] {
@@ -55,7 +68,7 @@ input[type="button"] {
     width: 100%;
     font-size: 20px;
     padding: 10px;
-    background-color:blueviolet;
+    background-color:rgb(53, 33, 237);
     color: white;
     border: none;
     margin: 20px 0;
@@ -63,11 +76,16 @@ input[type="button"] {
 
 input[type="button"]:hover {
     cursor: pointer;
-    background-color: rgb(41, 7, 74);
+    background-color: rgb(21, 5, 170);
+}
+
+.avatar{
+    width: 100px;
+    transform: translate(265px,-185px);
 }
 
 .login-form h1 {
-    color:rgb(82, 7, 152) 
+    color:rgb(53, 33, 237) 
 }
 
 @media all and (max-width: 480px) {
@@ -77,6 +95,7 @@ input[type="button"]:hover {
 
     label {
         flex-basis: 0;
+        
     }
 }
    
